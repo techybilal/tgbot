@@ -1,8 +1,8 @@
 class Translation(object):
-    START_TEXT = """Hello,
-This is a UptoLoad Bot!
+    START_TEXT = """Hey Welcome to Any File to Link Bot
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
-/help for more details.."""
+/help for more details.
+              🎈 @URobots 🎈."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "/help for Details"
@@ -14,15 +14,15 @@ URL | filename | username | password"""
     UPLOAD_START = "📤 𝙐𝙥𝙡𝙤𝙖𝙙𝙞𝙣𝙜 𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩 !!"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @UptoLoadTG"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @@UptoLoadTG \nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @URobots"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @URobots \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription."
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ 𝗖𝘂𝘀𝘁𝗼𝗺 𝘁𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 𝗰𝗹𝗲𝗮𝗿𝗲𝗱 𝘀𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ 𝗠𝗲𝗱𝗶𝗮 𝗰𝗹𝗲𝗮𝗿𝗲𝗱 𝘀𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆."
     SAVED_RECVD_DOC_FILE = "✅ 𝘿𝙤𝙘𝙪𝙢𝙚𝙣𝙩 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮."
-    CUSTOM_CAPTION_UL_FILE = " "
+    CUSTOM_CAPTION_UL_FILE = "@URobots"
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
@@ -31,7 +31,7 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: LifeTime
 Expires on: 31/12/2040"""
-    HELP_USER = """Hello i am UptoLoad Bot..
+    HELP_USER = """Hello i am Any File to Link Bot..
     
 𝟏. 𝐒𝐞𝐧𝐝 𝐮𝐫𝐥 (𝐋𝐢𝐧𝐤|𝐍𝐞𝐰 𝐍𝐚𝐦𝐞 𝐰𝐢𝐭𝐡 𝐄𝐱𝐭𝐞𝐧𝐬𝐢𝐨𝐧).
 𝟐. 𝐒𝐞𝐧𝐝 𝐂𝐮𝐬𝐭𝐨𝐦 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 (𝐎𝐩𝐭𝐢𝐨𝐧𝐚𝐥).
@@ -41,12 +41,12 @@ Expires on: 31/12/2040"""
    𝐕𝐢𝐝𝐞𝐨  - 𝐆𝐢𝐯𝐞 𝐅𝐢𝐥𝐞 𝐚𝐬 𝐯𝐢𝐝𝐞𝐨 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐒𝐜𝐫𝐞𝐞𝐧𝐬𝐡𝐨𝐭𝐬
    𝐃𝐅𝐢𝐥𝐞  - 𝐆𝐢𝐯𝐞 𝐅𝐢𝐥𝐞 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐒𝐜𝐫𝐞𝐞𝐧𝐬𝐡𝐨𝐭𝐬
    
-© @UptoLoadTG"""
+Join : @URobots"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @UptoLoad"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @AnyFiletoLinkBot"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
